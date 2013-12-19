@@ -29,9 +29,9 @@ if(@$customer_info['level'] == "reg"){
 <body>
 	
 	<div class="topnav">
-		<a href="../08-adminArea">Home</a> |
+		<a href="../BrucesAdminArea">Home</a> |
 		<a href="cart.php">View Cart</a> |
-		<a href="../08-adminArea/home.php?action=logout">Logout</a>
+		<a href="../BrucesAdminArea/home.php?action=logout">Logout</a>
 	</div>
 	
 	<div class="content">

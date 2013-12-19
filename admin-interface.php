@@ -27,11 +27,11 @@ if($customer_info['level'] == "admin"){
 <body>
 
 	<div class="topnav">
-		<a href="../08-adminArea">Home</a> |
+		<a href="../BrucesAdminArea">Home</a> |
 		<a href="admin-interface.php?action=addProd">Add Product</a> |
 		<a href="admin-interface.php?action=listProd">List Products</a> |
 		<a href="admin-interface.php?action=viewOrders">View Orders</a> |
-		<a href="../08-adminArea/home.php?action=logout">Logout</a>
+		<a href="../BrucesAdminArea/home.php?action=logout">Logout</a>
 	</div>
 	
 	<div class="content">

@@ -6,6 +6,10 @@ session_start();
 // variables
 $ses_username = $_SESSION['username'];
 
+unset($_SESSION['app_name']);
+unset($_SESSION['verify_back_to']);
+unset($_SESSION['action']);
+
 //*
 echo "<pre>";
 print_r($_SESSION);
