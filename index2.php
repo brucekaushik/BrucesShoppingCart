@@ -44,6 +44,6 @@ $_SESSION['order_info'] = $order_info;
 $_SESSION['ordered_products'] = $ordered_products;
 
 // redirect to home page
-header ("Location: home.php");
+printf("<script>location.href='home.php'</script>");
 
 ?>
