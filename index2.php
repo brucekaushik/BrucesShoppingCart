@@ -3,6 +3,9 @@
 // start a session
 session_start();
 
+// variables
+$ses_username = $_SESSION['username'];
+
 //*
 echo "<pre>";
 print_r($_SESSION);
@@ -32,9 +35,9 @@ $order_info = array();
 $ordered_products = array();
 
 // register session variable
-session_register("customer_info");
-session_register("order_info");
-session_register("ordered_products");
+$_SESSION['customer_info'] = $customer_info;
+$_SESSION['order_info'] = $order_info;
+$_SESSION['ordered_products'] = $ordered_products;
 
 // redirect to home page
 header ("Location: home.php");
