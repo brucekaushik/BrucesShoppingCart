@@ -4,7 +4,7 @@
 session_start();
 
 // connect to the database
-require '../08-adminArea/includes/dbConnect.inc.php';
+require '../BrucesAdminArea/includes/dbConnect.inc.php';
 
 if(isset($_POST["checkout_button"])){
 
